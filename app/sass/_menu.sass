@@ -1,0 +1,50 @@
+.menu
+  position: absolute
+  background: #FFC809
+  z-index: 5
+  right: 0
+  bottom: 0
+  height: 100vh
+  width: 39.2%
+  transform: translateX(100%)
+  transition-duration: 0.5s
+  transition-timing-function: ease-in
+  .container
+    flex-direction: column
+    margin-top: 40.5%
+    padding-left: 95px
+    .menu__title
+      display: flex
+      flex-direction: column
+      margin-bottom: 34px
+      span
+        font-family: Gilroy, sans-serif
+        font-size: 76px
+        line-height: 89px
+        letter-spacing: -1.52px
+        color: #FFFFFF
+        &:not(:first-child)
+          margin-top: -26px
+    .menu__sub
+      display: flex
+      flex-direction: column
+      margin-bottom: 53px
+      span
+        font-family: HelveticaNeue, sans-serif
+        font-size: 34px
+        line-height: 40px
+        font-weight: 100
+        color: #FFFFFF
+    .menu__button
+      font-family: Gilroy, sans-serif
+      font-size: 21.6986px
+      line-height: 25px
+      letter-spacing: 0.01px
+      color: #FFC809
+      cursor: pointer
+      padding: 13px 30px 8px 30px
+      background: #FFFFFF
+      border-radius: 50px
+      margin-right: auto
+.menu_active
+  transform: translateX(0)
